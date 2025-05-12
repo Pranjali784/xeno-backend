@@ -24,6 +24,7 @@ The project uses the following key dependencies:
 - **Spring Boot DevTools**: For enhanced development experience.
 
 ## Getting Started
+
 ### Prerequisites
 - Java Development Kit (JDK) 11 or higher.
 - Maven 3.6 or higher.
@@ -32,6 +33,7 @@ The project uses the following key dependencies:
 - MySQL Workbench for database management.
 
 ### Installation
+
 1. Clone the repository:
 
    git clone https://github.com/Pranjali784/xeno-backend.git
@@ -44,7 +46,7 @@ The project uses the following key dependencies:
 
   mvn clean install
 
-Database Setup
+### Database Setup
 
 Open MySQL Workbench and create a new database.
 
@@ -54,7 +56,7 @@ Update the application.properties file with your database credentials:
   spring.datasource.username=your_database_username
   spring.datasource.password=your_database_password
 
-Running the Application
+### Running the Application
 
 Start the application using Maven:
 
@@ -64,13 +66,13 @@ The application will be available at
 
   http://localhost:8080
 
-API Testing with Postman
+### API Testing with Postman
 
 Open Postman and create a new collection for your API tests.
 Import the API endpoints from the src/main/resources/api-docs.json file (if available).
 Test the endpoints by sending HTTP requests to http://localhost:8080.
 
-Example Endpoints:
+### Example Endpoints
 
 GET /api/items: Retrieve a list of items.
 POST /api/items: Create a new item.
