@@ -1,8 +1,6 @@
 package com.xeno.crm.backend.model;
-
 import jakarta.persistence.*;
 import java.util.Date;
-
 @Entity
 public class Campaign {
 
